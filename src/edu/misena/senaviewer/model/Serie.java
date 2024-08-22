@@ -2,7 +2,7 @@ package edu.misena.senaviewer.model;
 
 import java.util.Date;
 
-public class Serie {
+public class Serie{
     int id;
     String title;
     String genre;
