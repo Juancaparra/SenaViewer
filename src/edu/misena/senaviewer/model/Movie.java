@@ -2,17 +2,20 @@ package edu.misena.senaviewer.model;
 
 import java.util.Date;
 
-public class Chapter {
+public class Movie {
     int id;
     String title;
+    String genre;
+    String creator;
     int duration;
     int year;
-    int viewed;
+    boolean viewed;
     int timeViewed;
-    int sessionNumber;
 
-    public Chapter(String title,int duration ,int year){
+    public Movie(String title,String genre , String creator, int duration,int year ){
         this.title=title;
+        this.genre=genre;
+        this.creator=creator;
         this.duration=duration;
         this.year=year;
     }
@@ -33,6 +36,22 @@ public class Chapter {
         this.title = title;
     }
 
+    public String getGenre() {
+        return genre;
+    }
+
+    public void setGenre(String genre) {
+        this.genre = genre;
+    }
+
+    public String getCreator() {
+        return creator;
+    }
+
+    public void setCreator(String creator) {
+        this.creator = creator;
+    }
+
     public int getDuration() {
         return duration;
     }
@@ -49,11 +68,11 @@ public class Chapter {
         this.year = year;
     }
 
-    public int getViewed() {
+    public boolean getViewed() {
         return viewed;
     }
 
-    public void setViewed(int viewed) {
+    public void setViewed(boolean viewed) {
         this.viewed = viewed;
     }
 
@@ -63,13 +82,5 @@ public class Chapter {
 
     public void setTimeViewed(int timeViewed) {
         this.timeViewed = timeViewed;
-    }
-
-    public int getSessionNumber() {
-        return sessionNumber;
-    }
-
-    public void setSessionNumber(int sessionNumber) {
-        this.sessionNumber = sessionNumber;
     }
 }
