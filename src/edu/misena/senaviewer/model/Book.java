@@ -2,17 +2,15 @@ package edu.misena.senaviewer.model;
 
 import java.util.Date;
 
-public class Book {
+public class Book extends Publication{
     int id;
-    String title;
-    Date edititionDate;
-    String editorial;
     String authors;
     int isbn;
     boolean readed;
     int timereaded;
 
     public Book(String title, Date edititionDate, String editorial, int isbn){
+        super(title, edititionDate, editorial );
         this.title=title;
         this.edititionDate=edititionDate;
         this.editorial=editorial;
