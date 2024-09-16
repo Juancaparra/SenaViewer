@@ -1,8 +1,10 @@
 package edu.misena.senaviewer.model;
 
 import java.util.Date;
+import java.util.ArrayList;
 
 public class Chapter {
+    private static ArrayList<Chapter> chapters=new ArrayList<>();
     int id;
     String title;
     int duration;

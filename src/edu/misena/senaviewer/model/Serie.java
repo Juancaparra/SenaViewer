@@ -1,8 +1,10 @@
 package edu.misena.senaviewer.model;
 
 import java.util.Date;
+import java.util.ArrayList;
 
 public class Serie extends Film{
+    private static ArrayList<Film> films=new ArrayList<>();
     int id;
     int year;
     boolean viewed;

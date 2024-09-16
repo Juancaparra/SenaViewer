@@ -1,8 +1,10 @@
 package edu.misena.senaviewer.model;
 
 import java.util.Date;
+import java.util.ArrayList;
 
 public class Book extends Publication{
+    private static ArrayList<Publication> publications=new ArrayList<>();
     int id;
     String authors;
     int isbn;

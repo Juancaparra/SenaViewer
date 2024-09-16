@@ -4,13 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="81d5fd42-3e9b-4111-841f-72c3b45f036c" name="Changes" comment="final">
-      <change afterPath="$PROJECT_DIR$/src/edu/misena/senaviewer/model/Film.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/misena/senaviewer/model/Publication.java" afterDir="false" />
+    <list default="true" id="81d5fd42-3e9b-4111-841f-72c3b45f036c" name="Changes" comment="herencia">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/edu/misena/senaviewer/model/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/misena/senaviewer/model/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/misena/senaviewer/model/Chapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/misena/senaviewer/model/Chapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/misena/senaviewer/model/Film.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/misena/senaviewer/model/Film.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/edu/misena/senaviewer/model/Magazine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/misena/senaviewer/model/Magazine.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/edu/misena/senaviewer/model/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/misena/senaviewer/model/Movie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/misena/senaviewer/model/Publication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/misena/senaviewer/model/Publication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/edu/misena/senaviewer/model/Serie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/misena/senaviewer/model/Serie.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -99,13 +100,22 @@
       <option name="project" value="LOCAL" />
       <updated>1724344911190</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="herencia">
+      <option name="closed" value="true" />
+      <created>1726151980742</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1726151980742</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="primer clase" />
     <MESSAGE value="clases terminadas" />
     <MESSAGE value="final" />
-    <option name="LAST_COMMIT_MESSAGE" value="final" />
+    <MESSAGE value="herencia" />
+    <option name="LAST_COMMIT_MESSAGE" value="herencia" />
   </component>
 </project>
